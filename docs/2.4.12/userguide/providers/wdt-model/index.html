@@ -6,22 +6,22 @@
 <meta name="robots" content="index, follow">
 
 
-<link rel="shortcut icon" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/favicon.ico" >
-<link rel="apple-touch-icon" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/apple-touch-icon-180x180.png" sizes="180x180">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/android-36x36.png" sizes="36x36">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/android-48x48.png" sizes="48x48">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/android-72x72.png" sizes="72x72">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/android-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/android-144x144.png" sizes="144x144">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console-doc-play/favicons/android-192x192.png" sizes="192x192">
+<link rel="shortcut icon" href="/lfeigen.github.io/weblogic-remote-console/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/lfeigen.github.io/weblogic-remote-console/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-192x192.png" sizes="192x192">
 
 <title>WDT model files | WebLogic Remote Console</title>
 <meta name="description" content="WDT metadata models are descriptions of a WebLogic Server domain configuration, generally written in YAML but occasionally JSON. These models are not connected to a live domain and you edit them ‘offline’ before using the WebLogic Deploy Tooling (WDT) to build or modify live domains from the models.
 See the WebLogic Deploy Tooling documentation for more information.
 Note The WebLogic Remote Console assumes WDT model files are in YAML format. If you upload a file with no file extension, the WebLogic Remote Console will convert it to YAML format after you save your changes. Create a new WDT model file Open the Providers drawer and beside the project name, click ⋮. Select Create Provider for New WDT Model File. Enter a name for the WDT model file provider. This is the name that will appear in the Project list of providers so you can identify which provider you’re working on. Enter a name for the WDT model file in the WDT Model Filename field. Include .yaml or .json at the end of the file name. Browse to the directory where you want to save the new WDT model file. Optional: Enable Use Sparse Template to create a WDT model file which does not contain any references to an Administration Server. Optional: Choose a property list provider from the WDT Variables dropdown list. If you add WDT variables to your WDT model file, you can update the variables in your WDT model file from a single location - the property list provider. If you don’t have a property list provider yet, you can edit the WDT model file settings later to add or change the associated WDT variables. See WDT Model Tokens for more information. Click OK to create the file. Upload an existing WDT model file If you’ve already created a WDT model file, you can upload it to WebLogic Remote Console where you can continue to edit it.">
-<meta property="og:url" content="https://https://lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-model/">
+<meta property="og:url" content="https://https://lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-model/">
   <meta property="og:site_name" content="WebLogic Remote Console">
   <meta property="og:title" content="WDT model files">
   <meta property="og:description" content="WDT metadata models are descriptions of a WebLogic Server domain configuration, generally written in YAML but occasionally JSON. These models are not connected to a live domain and you edit them ‘offline’ before using the WebLogic Deploy Tooling (WDT) to build or modify live domains from the models.
@@ -41,8 +41,8 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
   <meta name="twitter:description" content="WDT metadata models are descriptions of a WebLogic Server domain configuration, generally written in YAML but occasionally JSON. These models are not connected to a live domain and you edit them ‘offline’ before using the WebLogic Deploy Tooling (WDT) to build or modify live domains from the models.
 See the WebLogic Deploy Tooling documentation for more information.
 Note The WebLogic Remote Console assumes WDT model files are in YAML format. If you upload a file with no file extension, the WebLogic Remote Console will convert it to YAML format after you save your changes. Create a new WDT model file Open the Providers drawer and beside the project name, click ⋮. Select Create Provider for New WDT Model File. Enter a name for the WDT model file provider. This is the name that will appear in the Project list of providers so you can identify which provider you’re working on. Enter a name for the WDT model file in the WDT Model Filename field. Include .yaml or .json at the end of the file name. Browse to the directory where you want to save the new WDT model file. Optional: Enable Use Sparse Template to create a WDT model file which does not contain any references to an Administration Server. Optional: Choose a property list provider from the WDT Variables dropdown list. If you add WDT variables to your WDT model file, you can update the variables in your WDT model file from a single location - the property list provider. If you don’t have a property list provider yet, you can edit the WDT model file settings later to add or change the associated WDT variables. See WDT Model Tokens for more information. Click OK to create the file. Upload an existing WDT model file If you’ve already created a WDT model file, you can upload it to WebLogic Remote Console where you can continue to edit it.">
-<link rel="preload" href="//lfeigen.github.io/weblogic-remote-console-doc-play/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" as="style" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
-<link href="//lfeigen.github.io/weblogic-remote-console-doc-play/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" rel="stylesheet" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
+<link rel="preload" href="//lfeigen.github.io/weblogic-remote-console/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" as="style" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
+<link href="//lfeigen.github.io/weblogic-remote-console/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" rel="stylesheet" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -57,11 +57,11 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
     <header>
       <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
 <div class="container-fluid flex-column flex-md-row">
-  <a class="navbar-brand" href="/lfeigen.github.io/weblogic-remote-console-doc-play/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">WebLogic Remote Console</span></a>
+  <a class="navbar-brand" href="/lfeigen.github.io/weblogic-remote-console/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">WebLogic Remote Console</span></a>
   <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/lfeigen.github.io/weblogic-remote-console-doc-play/overview"><span>Documentation</span></a>
+        <a class="nav-link" href="/lfeigen.github.io/weblogic-remote-console/overview"><span>Documentation</span></a>
       </li>
       <li class="nav-item dropdown d-none d-lg-block">
         <div class="dropdown">
@@ -138,7 +138,7 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="//lfeigen.github.io/weblogic-remote-console-doc-play/offline-search-index.f1ae98be7543d0c0617f18f567420c30.json"
+    data-offline-search-index-json-src="//lfeigen.github.io/weblogic-remote-console/offline-search-index.3927ae81249c1fcb93c52d9e90aea599.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -163,7 +163,7 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="//lfeigen.github.io/weblogic-remote-console-doc-play/offline-search-index.f1ae98be7543d0c0617f18f567420c30.json"
+    data-offline-search-index-json-src="//lfeigen.github.io/weblogic-remote-console/offline-search-index.3927ae81249c1fcb93c52d9e90aea599.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -175,124 +175,124 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
   <div id="content-desktop"></div>
   <nav class="td-sidebar-nav collapse td-sidebar-nav--search-disabled foldable-nav" id="td-section-nav">
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
-      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console-doc-play2412-li">
-  <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-lfeigengithubioweblogic-remote-console-doc-play2412"><span class="">WebLogic Remote Console</span></a>
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console2412-li">
+  <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-lfeigengithubioweblogic-remote-console2412"><span class="">WebLogic Remote Console</span></a>
   <ul class="ul-1">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setup-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setup-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412setup-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/setup/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setup"><span class="">Get started</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console2412setup-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412setup-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412setup-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/setup/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2412setup"><span class="">Get started</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setupconsole-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setupconsole-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412setupconsole-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/setup/console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setupconsole"><span class="">Explore the WebLogic Remote Console</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412setupconsole-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412setupconsole-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412setupconsole-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/setup/console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412setupconsole"><span class="">Explore the WebLogic Remote Console</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setupadmin-console-diff-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setupadmin-console-diff-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412setupadmin-console-diff-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/setup/admin-console-diff/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412setupadmin-console-diff"><span class="">Differences with the Administration Console</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412setupadmin-console-diff-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412setupadmin-console-diff-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412setupadmin-console-diff-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/setup/admin-console-diff/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412setupadmin-console-diff"><span class="">Differences with the Administration Console</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguide-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguide-check" checked/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguide-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguide"><span class="">User guide</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console2412userguide-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguide-check" checked/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguide-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2412userguide"><span class="">User guide</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprojects-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprojects-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprojects-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/projects/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprojects"><span class="">Projects</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguideprojects-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideprojects-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideprojects-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/projects/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguideprojects"><span class="">Projects</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviders-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviders-check" checked/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviders-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviders"><span class="">Provider types</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console2412userguideproviders-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideproviders-check" checked/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideproviders-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2412userguideproviders"><span class="">Provider types</span></a></label>
   
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersadministration-server-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersadministration-server-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersadministration-server-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/administration-server/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersadministration-server"><span class="">Administration Servers</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersadministration-server-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersadministration-server-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideprovidersadministration-server-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/administration-server/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersadministration-server"><span class="">Administration Servers</span></a></label>
   
   <ul class="ul-4 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersadministration-serversecurity-data-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersadministration-serversecurity-data-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersadministration-serversecurity-data-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/administration-server/security-data/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersadministration-serversecurity-data"><span class="">Editing security data</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersadministration-serversecurity-data-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersadministration-serversecurity-data-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideprovidersadministration-serversecurity-data-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/administration-server/security-data/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersadministration-serversecurity-data"><span class="">Editing security data</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersproperty-list-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersproperty-list-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersproperty-list-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/property-list/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideprovidersproperty-list"><span class="">Property lists</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersproperty-list-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersproperty-list-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideprovidersproperty-list-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/property-list/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguideprovidersproperty-list"><span class="">Property lists</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviderswdt-model-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviderswdt-model-check" checked/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviderswdt-model-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-model/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviderswdt-model"><span class="td-sidebar-nav-active-item">WDT model files</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-lfeigengithubioweblogic-remote-console2412userguideproviderswdt-model-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideproviderswdt-model-check" checked/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideproviderswdt-model-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-model/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguideproviderswdt-model"><span class="td-sidebar-nav-active-item">WDT model files</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviderswdt-composite-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviderswdt-composite-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviderswdt-composite-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-composite/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideproviderswdt-composite"><span class="">WDT composite models</span></a></label>
-  
-</li>
-  </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideadvanced-settings-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideadvanced-settings-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideadvanced-settings-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/advanced-settings/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideadvanced-settings"><span class="">Customize settings</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguidedashboards-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguidedashboards-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguidedashboards-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/dashboards/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguidedashboards"><span class="">Generate dashboards</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideupgrade-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideupgrade-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideupgrade-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/upgrade/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguideupgrade"><span class="">Upgrade the WebLogic Remote Console</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguidelogging-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguidelogging-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguidelogging-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/logging/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguidelogging"><span class="">Check log files</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguiderole-access-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguiderole-access-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412userguiderole-access-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/role-access/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412userguiderole-access"><span class="">Understand access discrepancies</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguideproviderswdt-composite-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideproviderswdt-composite-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideproviderswdt-composite-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-composite/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguideproviderswdt-composite"><span class="">WDT composite models</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412develop-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412develop-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412develop-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/develop/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console-doc-play2412develop"><span class="">Development</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguideadvanced-settings-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideadvanced-settings-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideadvanced-settings-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/advanced-settings/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguideadvanced-settings"><span class="">Customize settings</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguidedashboards-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguidedashboards-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguidedashboards-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/dashboards/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguidedashboards"><span class="">Generate dashboards</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguideupgrade-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguideupgrade-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguideupgrade-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/upgrade/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguideupgrade"><span class="">Upgrade the WebLogic Remote Console</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguidelogging-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguidelogging-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguidelogging-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/logging/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguidelogging"><span class="">Check log files</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412userguiderole-access-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412userguiderole-access-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412userguiderole-access-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/role-access/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412userguiderole-access"><span class="">Understand access discrepancies</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console2412develop-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412develop-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412develop-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/develop/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2412develop"><span class="">Development</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developbuild-source-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developbuild-source-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412developbuild-source-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/develop/build-source/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developbuild-source"><span class="">Build from source</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412developbuild-source-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412developbuild-source-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412developbuild-source-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/develop/build-source/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412developbuild-source"><span class="">Build from source</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developcontribute-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developcontribute-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412developcontribute-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/develop/contribute/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developcontribute"><span class="">Contribute to WebLogic Remote Console</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412developcontribute-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412developcontribute-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412developcontribute-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/develop/contribute/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412developcontribute"><span class="">Contribute to WebLogic Remote Console</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developdocs-contribute-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developdocs-contribute-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412developdocs-contribute-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/develop/docs-contribute/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412developdocs-contribute"><span class="">Contribute to the documentation</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412developdocs-contribute-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412developdocs-contribute-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412developdocs-contribute-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/develop/docs-contribute/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412developdocs-contribute"><span class="">Contribute to the documentation</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412reference-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412reference-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412reference-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/reference/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console-doc-play2412reference"><span class="">Reference</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console2412reference-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412reference-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412reference-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/reference/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2412reference"><span class="">Reference</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencefaqs-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencefaqs-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412referencefaqs-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/reference/faqs/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencefaqs"><span class="">Frequently asked questions</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412referencefaqs-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412referencefaqs-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412referencefaqs-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/reference/faqs/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412referencefaqs"><span class="">Frequently asked questions</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referenceknown_issues-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referenceknown_issues-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412referenceknown_issues-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/reference/known_issues/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referenceknown_issues"><span class="">Known issues</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412referenceknown_issues-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412referenceknown_issues-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412referenceknown_issues-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/reference/known_issues/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412referenceknown_issues"><span class="">Known issues</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencetroubleshoot-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencetroubleshoot-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412referencetroubleshoot-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/reference/troubleshoot/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencetroubleshoot"><span class="">Troubleshoot issues</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412referencetroubleshoot-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412referencetroubleshoot-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412referencetroubleshoot-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/reference/troubleshoot/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412referencetroubleshoot"><span class="">Troubleshoot issues</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencesecurity-warnings-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencesecurity-warnings-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console-doc-play2412referencesecurity-warnings-check"><a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/reference/security-warnings/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console-doc-play2412referencesecurity-warnings"><span class="">Review security issues</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2412referencesecurity-warnings-li">
+  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2412referencesecurity-warnings-check"/>
+  <label for="m-lfeigengithubioweblogic-remote-console2412referencesecurity-warnings-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/reference/security-warnings/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2412referencesecurity-warnings"><span class="">Review security issues</span></a></label>
   
 </li>
   </ul>
@@ -345,11 +345,11 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
             <nav aria-label="breadcrumb" class="td-breadcrumbs">
   <ol class="breadcrumb">
   <li class="breadcrumb-item">
-    <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/">WebLogic Remote Console</a></li>
+    <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/">WebLogic Remote Console</a></li>
   <li class="breadcrumb-item">
-    <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/">User guide</a></li>
+    <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/">User guide</a></li>
   <li class="breadcrumb-item">
-    <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/">Provider types</a></li>
+    <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/">Provider types</a></li>
   <li class="breadcrumb-item active" aria-current="page">
     WDT model files</li>
   </ol>
@@ -378,7 +378,7 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
 <li>Enter a name for the WDT model file in the <strong>WDT Model Filename</strong> field. Include .yaml or .json at the end of the file name.</li>
 <li>Browse to the directory where you want to save the new WDT model file.</li>
 <li><strong>Optional</strong>: Enable <strong>Use Sparse Template</strong> to create a WDT model file which does not contain any references to an Administration Server.</li>
-<li><strong>Optional</strong>: Choose a property list provider from the <strong>WDT Variables</strong> dropdown list. If you add WDT variables to your WDT model file, you can update the variables in your WDT model file from a single location - the property list provider. If you don&rsquo;t have a property list provider yet, you can edit the WDT model file settings later to add or change the associated WDT variables. See <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-model/#model_tokens">WDT Model Tokens</a> for more information.</li>
+<li><strong>Optional</strong>: Choose a property list provider from the <strong>WDT Variables</strong> dropdown list. If you add WDT variables to your WDT model file, you can update the variables in your WDT model file from a single location - the property list provider. If you don&rsquo;t have a property list provider yet, you can edit the WDT model file settings later to add or change the associated WDT variables. See <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-model/#model_tokens">WDT Model Tokens</a> for more information.</li>
 <li>Click <strong>OK</strong> to create the file.</li>
 </ol>
 <h2 id="upload-an-existing-wdt-model-file">Upload an existing WDT model file</h2>
@@ -387,7 +387,7 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
 <li>Open the Providers drawer and beside the project name, click ⋮. Select <strong>Add WDT Model File Provider</strong>.</li>
 <li>Enter a name for the model in the <strong>Model Name</strong> field. This is the name that will appear in the Project list of providers so you can identify which provider you’re working on.</li>
 <li>Browse to the WDT model file (a YAML or JSON file).</li>
-<li><strong>Optional</strong>: Choose a property list provider from the <strong>WDT Variables</strong> dropdown list. If you add WDT variables to your WDT model file, you can update the variables in your WDT model file from a single location - the property list provider. If you don&rsquo;t have a property list provider yet, you can edit the WDT model file settings later to add or change the associated WDT variables. See <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-model/#model_tokens">WDT Model Tokens</a> for more information.</li>
+<li><strong>Optional</strong>: Choose a property list provider from the <strong>WDT Variables</strong> dropdown list. If you add WDT variables to your WDT model file, you can update the variables in your WDT model file from a single location - the property list provider. If you don&rsquo;t have a property list provider yet, you can edit the WDT model file settings later to add or change the associated WDT variables. See <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-model/#model_tokens">WDT Model Tokens</a> for more information.</li>
 <li>Click <strong>OK</strong> to upload the file.</li>
 </ol>
 <h2 id="changes_wdt">Edit a WDT model file</h2>
@@ -396,7 +396,7 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
 <p>Open the Providers drawer and select the WDT model file you want to edit.</p>
 </li>
 <li>
-<p>Click <strong>WDT Model Tree</strong> and make your changes to the domain configuration. Make sure to click the model token icon if you want to enter a <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-model/#model_tokens">model token</a>.</p>
+<p>Click <strong>WDT Model Tree</strong> and make your changes to the domain configuration. Make sure to click the model token icon if you want to enter a <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-model/#model_tokens">model token</a>.</p>
 <table>
   <thead>
       <tr>
@@ -419,7 +419,7 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
       </tr>
       <tr>
           <td>Enter Model Token</td>
-          <td>Enter a <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-model/#model_tokens">WDT model token</a>.</td>
+          <td>Enter a <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-model/#model_tokens">WDT model token</a>.</td>
       </tr>
       <tr>
           <td>Enter Unresolved Reference</td>
@@ -427,11 +427,11 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
       </tr>
       <tr>
           <td>Select Model Token Variable</td>
-          <td>Select a <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-model/#wdt_variables">model token variable</a> from the list of available options. The WDT model file must be connected with a property list to see this option.</td>
+          <td>Select a <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-model/#wdt_variables">model token variable</a> from the list of available options. The WDT model file must be connected with a property list to see this option.</td>
       </tr>
       <tr>
           <td>Create Model Token Variable</td>
-          <td>Enter a Variable Name and Variable Value to create a new <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/wdt-model/#wdt_variables">model token variable</a>. New model token variables are added to the connected property list. The WDT model file must be connected with a property list to see this option.</td>
+          <td>Enter a Variable Name and Variable Value to create a new <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/wdt-model/#wdt_variables">model token variable</a>. New model token variables are added to the connected property list. The WDT model file must be connected with a property list to see this option.</td>
       </tr>
   </tbody>
 </table>
@@ -454,7 +454,7 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
 <p>There are several types of model tokens including variable tokens, file tokens, and so on. Model tokens follow this format: <code>@@TYPE:KEY@@</code>, where <code>TYPE</code> is the model token type and <code>KEY</code> is the variable value. For example, you can declare a variable token by entering <code>@@PROP:ABCDE@@</code> into a field.</p>
 <p>See <a href="https://oracle.github.io/weblogic-deploy-tooling/concepts/model/#model-tokens">WDT Model Tokens</a> in the WebLogic Deploy Tooling documentation for more information.</p>
 <h4 id="wdt_variables">WDT variables</h4>
-<p>WDT variables make it even easier to manage WDT model tokens in the WebLogic Remote Console. When you add WDT variables to your WDT model file, you create a link between the WDT model file and a <a href="/lfeigen.github.io/weblogic-remote-console-doc-play/2.4.12/userguide/providers/property-list/">property list</a>. You can then pull in properties from the property list and use them as WDT model tokens. Then, when you want to update a property value, just open the associated property list and make your changes there.</p>
+<p>WDT variables make it even easier to manage WDT model tokens in the WebLogic Remote Console. When you add WDT variables to your WDT model file, you create a link between the WDT model file and a <a href="/lfeigen.github.io/weblogic-remote-console/2.4.12/userguide/providers/property-list/">property list</a>. You can then pull in properties from the property list and use them as WDT model tokens. Then, when you want to update a property value, just open the associated property list and make your changes there.</p>
 <p>You can use both standalone WDT model tokens and WDT variables in a WDT model file, but only one property list provider per WDT model file. Multiple WDT model files can use the same property list.</p>
 <h2 id="delete-a-wdt-model-file">Delete a WDT model file</h2>
 <p>This will only remove the WDT model file from the WebLogic Remote Console. It will remain in the location designated on your computer.</p>
@@ -502,9 +502,9 @@ Note The WebLogic Remote Console assumes WDT model files are in YAML format. If 
 </footer>
 
     </div>
-    <script src="//lfeigen.github.io/weblogic-remote-console-doc-play/js/main.min.90902a026ed2aee7ed45d85797f4c790b240ba148ac6f8a6f194cb1981ffecf5.js" integrity="sha256-kJAqAm7SruftRdhXl/THkLJAuhSKxvim8ZTLGYH/7PU=" crossorigin="anonymous"></script>
-<script defer src="//lfeigen.github.io/weblogic-remote-console-doc-play/js/click-to-copy.min.73478a7d4807698aed7e355eb23f9890ca18fea3158604c8471746d046702bad.js" integrity="sha256-c0eKfUgHaYrtfjVesj&#43;YkMoY/qMVhgTIRxdG0EZwK60=" crossorigin="anonymous"></script>
-<script src='/lfeigen.github.io/weblogic-remote-console-doc-play/js/tabpane-persist.js'></script>
+    <script src="//lfeigen.github.io/weblogic-remote-console/js/main.min.90902a026ed2aee7ed45d85797f4c790b240ba148ac6f8a6f194cb1981ffecf5.js" integrity="sha256-kJAqAm7SruftRdhXl/THkLJAuhSKxvim8ZTLGYH/7PU=" crossorigin="anonymous"></script>
+<script defer src="//lfeigen.github.io/weblogic-remote-console/js/click-to-copy.min.73478a7d4807698aed7e355eb23f9890ca18fea3158604c8471746d046702bad.js" integrity="sha256-c0eKfUgHaYrtfjVesj&#43;YkMoY/qMVhgTIRxdG0EZwK60=" crossorigin="anonymous"></script>
+<script src='/lfeigen.github.io/weblogic-remote-console/js/tabpane-persist.js'></script>
 
   </body>
 </html>
