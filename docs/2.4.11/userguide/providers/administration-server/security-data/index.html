@@ -6,21 +6,21 @@
 <meta name="robots" content="index, follow">
 
 
-<link rel="shortcut icon" href="/lfeigen.github.io/weblogic-remote-console/favicons/favicon.ico" >
-<link rel="apple-touch-icon" href="/lfeigen.github.io/weblogic-remote-console/favicons/apple-touch-icon-180x180.png" sizes="180x180">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-36x36.png" sizes="36x36">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-48x48.png" sizes="48x48">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-72x72.png" sizes="72x72">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-144x144.png" sizes="144x144">
-<link rel="icon" type="image/png" href="/lfeigen.github.io/weblogic-remote-console/favicons/android-192x192.png" sizes="192x192">
+<link rel="shortcut icon" href="/weblogic-remote-console/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/weblogic-remote-console/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-192x192.png" sizes="192x192">
 
 <title>Editing security data | WebLogic Remote Console</title>
 <meta name="description" content="You can manage security data and supported security providers for your domain in the Security Data tree perspective.
 Note You must be logged in as a user with the Admin role and have the WebLogic Remote Console extension installed to access this perspective. See Install the WebLogic Remote Console for instructions. Any changes you make within the Security Data perspective are immediate - you don’t need to commit or restart the server to apply your changes.">
-<meta property="og:url" content="https://https://lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/">
+<meta property="og:url" content="https://lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/">
   <meta property="og:site_name" content="WebLogic Remote Console">
   <meta property="og:title" content="Editing security data">
   <meta property="og:description" content="You can manage security data and supported security providers for your domain in the Security Data tree perspective.
@@ -37,8 +37,8 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
   <meta name="twitter:title" content="Editing security data">
   <meta name="twitter:description" content="You can manage security data and supported security providers for your domain in the Security Data tree perspective.
 Note You must be logged in as a user with the Admin role and have the WebLogic Remote Console extension installed to access this perspective. See Install the WebLogic Remote Console for instructions. Any changes you make within the Security Data perspective are immediate - you don’t need to commit or restart the server to apply your changes.">
-<link rel="preload" href="//lfeigen.github.io/weblogic-remote-console/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" as="style" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
-<link href="//lfeigen.github.io/weblogic-remote-console/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" rel="stylesheet" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
+<link rel="preload" href="/weblogic-remote-console/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" as="style" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
+<link href="/weblogic-remote-console/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" rel="stylesheet" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -53,11 +53,11 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
     <header>
       <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
 <div class="container-fluid flex-column flex-md-row">
-  <a class="navbar-brand" href="/lfeigen.github.io/weblogic-remote-console/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">WebLogic Remote Console</span></a>
+  <a class="navbar-brand" href="/weblogic-remote-console/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">WebLogic Remote Console</span></a>
   <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/lfeigen.github.io/weblogic-remote-console/overview"><span>Documentation</span></a>
+        <a class="nav-link" href="/weblogic-remote-console/overview"><span>Documentation</span></a>
       </li>
       <li class="nav-item dropdown d-none d-lg-block">
         <div class="dropdown">
@@ -134,7 +134,7 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="//lfeigen.github.io/weblogic-remote-console/offline-search-index.3927ae81249c1fcb93c52d9e90aea599.json"
+    data-offline-search-index-json-src="/weblogic-remote-console/offline-search-index.e152858a1bbec0f36c67cf871ab007ef.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -159,7 +159,7 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="//lfeigen.github.io/weblogic-remote-console/offline-search-index.3927ae81249c1fcb93c52d9e90aea599.json"
+    data-offline-search-index-json-src="/weblogic-remote-console/offline-search-index.e152858a1bbec0f36c67cf871ab007ef.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -171,124 +171,124 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
   <div id="content-desktop"></div>
   <nav class="td-sidebar-nav collapse td-sidebar-nav--search-disabled foldable-nav" id="td-section-nav">
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
-      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console2411-li">
-  <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-lfeigengithubioweblogic-remote-console2411"><span class="">WebLogic Remote Console</span></a>
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-weblogic-remote-console2411-li">
+  <a href="/weblogic-remote-console/2.4.11/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-weblogic-remote-console2411"><span class="">WebLogic Remote Console</span></a>
   <ul class="ul-1">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console2411setup-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411setup-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411setup-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/setup/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2411setup"><span class="">Get started</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-weblogic-remote-console2411setup-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411setup-check"/>
+  <label for="m-weblogic-remote-console2411setup-check"><a href="/weblogic-remote-console/2.4.11/setup/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2411setup"><span class="">Get started</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411setupconsole-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411setupconsole-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411setupconsole-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/setup/console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411setupconsole"><span class="">Explore the WebLogic Remote Console</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411setupconsole-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411setupconsole-check"/>
+  <label for="m-weblogic-remote-console2411setupconsole-check"><a href="/weblogic-remote-console/2.4.11/setup/console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411setupconsole"><span class="">Explore the WebLogic Remote Console</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411setupadmin-console-diff-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411setupadmin-console-diff-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411setupadmin-console-diff-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/setup/admin-console-diff/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411setupadmin-console-diff"><span class="">Differences with the Administration Console</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411setupadmin-console-diff-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411setupadmin-console-diff-check"/>
+  <label for="m-weblogic-remote-console2411setupadmin-console-diff-check"><a href="/weblogic-remote-console/2.4.11/setup/admin-console-diff/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411setupadmin-console-diff"><span class="">Differences with the Administration Console</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console2411userguide-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguide-check" checked/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguide-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2411userguide"><span class="">User guide</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-weblogic-remote-console2411userguide-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguide-check" checked/>
+  <label for="m-weblogic-remote-console2411userguide-check"><a href="/weblogic-remote-console/2.4.11/userguide/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2411userguide"><span class="">User guide</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguideprojects-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideprojects-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideprojects-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/projects/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguideprojects"><span class="">Projects</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguideprojects-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideprojects-check"/>
+  <label for="m-weblogic-remote-console2411userguideprojects-check"><a href="/weblogic-remote-console/2.4.11/userguide/projects/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguideprojects"><span class="">Projects</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console2411userguideproviders-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideproviders-check" checked/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideproviders-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2411userguideproviders"><span class="">Provider types</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-weblogic-remote-console2411userguideproviders-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideproviders-check" checked/>
+  <label for="m-weblogic-remote-console2411userguideproviders-check"><a href="/weblogic-remote-console/2.4.11/userguide/providers/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2411userguideproviders"><span class="">Provider types</span></a></label>
   
   <ul class="ul-3 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersadministration-server-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersadministration-server-check" checked/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideprovidersadministration-server-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersadministration-server"><span class="">Administration Servers</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-weblogic-remote-console2411userguideprovidersadministration-server-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideprovidersadministration-server-check" checked/>
+  <label for="m-weblogic-remote-console2411userguideprovidersadministration-server-check"><a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2411userguideprovidersadministration-server"><span class="">Administration Servers</span></a></label>
   
   <ul class="ul-4 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersadministration-serversecurity-data-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersadministration-serversecurity-data-check" checked/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideprovidersadministration-serversecurity-data-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersadministration-serversecurity-data"><span class="td-sidebar-nav-active-item">Editing security data</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-weblogic-remote-console2411userguideprovidersadministration-serversecurity-data-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideprovidersadministration-serversecurity-data-check" checked/>
+  <label for="m-weblogic-remote-console2411userguideprovidersadministration-serversecurity-data-check"><a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguideprovidersadministration-serversecurity-data"><span class="td-sidebar-nav-active-item">Editing security data</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersproperty-list-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersproperty-list-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideprovidersproperty-list-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/property-list/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguideprovidersproperty-list"><span class="">Property lists</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguideprovidersproperty-list-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideprovidersproperty-list-check"/>
+  <label for="m-weblogic-remote-console2411userguideprovidersproperty-list-check"><a href="/weblogic-remote-console/2.4.11/userguide/providers/property-list/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguideprovidersproperty-list"><span class="">Property lists</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguideproviderswdt-model-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideproviderswdt-model-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideproviderswdt-model-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/wdt-model/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguideproviderswdt-model"><span class="">WDT model files</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguideproviderswdt-model-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideproviderswdt-model-check"/>
+  <label for="m-weblogic-remote-console2411userguideproviderswdt-model-check"><a href="/weblogic-remote-console/2.4.11/userguide/providers/wdt-model/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguideproviderswdt-model"><span class="">WDT model files</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguideproviderswdt-composite-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideproviderswdt-composite-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideproviderswdt-composite-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/wdt-composite/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguideproviderswdt-composite"><span class="">WDT composite models</span></a></label>
-  
-</li>
-  </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguideadvanced-settings-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideadvanced-settings-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideadvanced-settings-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/advanced-settings/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguideadvanced-settings"><span class="">Customize settings</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguidedashboards-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguidedashboards-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguidedashboards-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/dashboards/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguidedashboards"><span class="">Generate dashboards</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguideupgrade-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguideupgrade-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguideupgrade-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/upgrade/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguideupgrade"><span class="">Upgrade the WebLogic Remote Console</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguidelogging-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguidelogging-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguidelogging-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/logging/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguidelogging"><span class="">Check log files</span></a></label>
-  
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411userguiderole-access-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411userguiderole-access-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411userguiderole-access-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/role-access/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411userguiderole-access"><span class="">Understand access discrepancies</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguideproviderswdt-composite-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideproviderswdt-composite-check"/>
+  <label for="m-weblogic-remote-console2411userguideproviderswdt-composite-check"><a href="/weblogic-remote-console/2.4.11/userguide/providers/wdt-composite/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguideproviderswdt-composite"><span class="">WDT composite models</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console2411develop-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411develop-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411develop-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/develop/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2411develop"><span class="">Development</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguideadvanced-settings-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideadvanced-settings-check"/>
+  <label for="m-weblogic-remote-console2411userguideadvanced-settings-check"><a href="/weblogic-remote-console/2.4.11/userguide/advanced-settings/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguideadvanced-settings"><span class="">Customize settings</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguidedashboards-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguidedashboards-check"/>
+  <label for="m-weblogic-remote-console2411userguidedashboards-check"><a href="/weblogic-remote-console/2.4.11/userguide/dashboards/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguidedashboards"><span class="">Generate dashboards</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguideupgrade-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguideupgrade-check"/>
+  <label for="m-weblogic-remote-console2411userguideupgrade-check"><a href="/weblogic-remote-console/2.4.11/userguide/upgrade/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguideupgrade"><span class="">Upgrade the WebLogic Remote Console</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguidelogging-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguidelogging-check"/>
+  <label for="m-weblogic-remote-console2411userguidelogging-check"><a href="/weblogic-remote-console/2.4.11/userguide/logging/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguidelogging"><span class="">Check log files</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411userguiderole-access-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411userguiderole-access-check"/>
+  <label for="m-weblogic-remote-console2411userguiderole-access-check"><a href="/weblogic-remote-console/2.4.11/userguide/role-access/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411userguiderole-access"><span class="">Understand access discrepancies</span></a></label>
+  
+</li>
+  </ul>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-weblogic-remote-console2411develop-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411develop-check"/>
+  <label for="m-weblogic-remote-console2411develop-check"><a href="/weblogic-remote-console/2.4.11/develop/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2411develop"><span class="">Development</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411developbuild-source-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411developbuild-source-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411developbuild-source-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/develop/build-source/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411developbuild-source"><span class="">Build from source</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411developbuild-source-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411developbuild-source-check"/>
+  <label for="m-weblogic-remote-console2411developbuild-source-check"><a href="/weblogic-remote-console/2.4.11/develop/build-source/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411developbuild-source"><span class="">Build from source</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411developcontribute-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411developcontribute-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411developcontribute-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/develop/contribute/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411developcontribute"><span class="">Contribute to WebLogic Remote Console</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411developcontribute-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411developcontribute-check"/>
+  <label for="m-weblogic-remote-console2411developcontribute-check"><a href="/weblogic-remote-console/2.4.11/develop/contribute/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411developcontribute"><span class="">Contribute to WebLogic Remote Console</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411developdocs-contribute-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411developdocs-contribute-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411developdocs-contribute-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/develop/docs-contribute/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411developdocs-contribute"><span class="">Contribute to the documentation</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411developdocs-contribute-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411developdocs-contribute-check"/>
+  <label for="m-weblogic-remote-console2411developdocs-contribute-check"><a href="/weblogic-remote-console/2.4.11/develop/docs-contribute/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411developdocs-contribute"><span class="">Contribute to the documentation</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-lfeigengithubioweblogic-remote-console2411reference-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411reference-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411reference-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/reference/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-lfeigengithubioweblogic-remote-console2411reference"><span class="">Reference</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-weblogic-remote-console2411reference-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411reference-check"/>
+  <label for="m-weblogic-remote-console2411reference-check"><a href="/weblogic-remote-console/2.4.11/reference/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2411reference"><span class="">Reference</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411referencefaqs-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411referencefaqs-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411referencefaqs-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/reference/faqs/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411referencefaqs"><span class="">Frequently asked questions</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411referencefaqs-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411referencefaqs-check"/>
+  <label for="m-weblogic-remote-console2411referencefaqs-check"><a href="/weblogic-remote-console/2.4.11/reference/faqs/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411referencefaqs"><span class="">Frequently asked questions</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411referenceknown_issues-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411referenceknown_issues-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411referenceknown_issues-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/reference/known_issues/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411referenceknown_issues"><span class="">Known issues</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411referenceknown_issues-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411referenceknown_issues-check"/>
+  <label for="m-weblogic-remote-console2411referenceknown_issues-check"><a href="/weblogic-remote-console/2.4.11/reference/known_issues/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411referenceknown_issues"><span class="">Known issues</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411referencetroubleshoot-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411referencetroubleshoot-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411referencetroubleshoot-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/reference/troubleshoot/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411referencetroubleshoot"><span class="">Troubleshoot issues</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411referencetroubleshoot-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411referencetroubleshoot-check"/>
+  <label for="m-weblogic-remote-console2411referencetroubleshoot-check"><a href="/weblogic-remote-console/2.4.11/reference/troubleshoot/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411referencetroubleshoot"><span class="">Troubleshoot issues</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-lfeigengithubioweblogic-remote-console2411referencesecurity-warnings-li">
-  <input type="checkbox" id="m-lfeigengithubioweblogic-remote-console2411referencesecurity-warnings-check"/>
-  <label for="m-lfeigengithubioweblogic-remote-console2411referencesecurity-warnings-check"><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/reference/security-warnings/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-lfeigengithubioweblogic-remote-console2411referencesecurity-warnings"><span class="">Review security issues</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2411referencesecurity-warnings-li">
+  <input type="checkbox" id="m-weblogic-remote-console2411referencesecurity-warnings-check"/>
+  <label for="m-weblogic-remote-console2411referencesecurity-warnings-check"><a href="/weblogic-remote-console/2.4.11/reference/security-warnings/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-weblogic-remote-console2411referencesecurity-warnings"><span class="">Review security issues</span></a></label>
   
 </li>
   </ul>
@@ -360,13 +360,13 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
             <nav aria-label="breadcrumb" class="td-breadcrumbs">
   <ol class="breadcrumb">
   <li class="breadcrumb-item">
-    <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/">WebLogic Remote Console</a></li>
+    <a href="/weblogic-remote-console/2.4.11/">WebLogic Remote Console</a></li>
   <li class="breadcrumb-item">
-    <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/">User guide</a></li>
+    <a href="/weblogic-remote-console/2.4.11/userguide/">User guide</a></li>
   <li class="breadcrumb-item">
-    <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/">Provider types</a></li>
+    <a href="/weblogic-remote-console/2.4.11/userguide/providers/">Provider types</a></li>
   <li class="breadcrumb-item">
-    <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/">Administration Servers</a></li>
+    <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/">Administration Servers</a></li>
   <li class="breadcrumb-item active" aria-current="page">
     Editing security data</li>
   </ol>
@@ -440,7 +440,7 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
 <p>For most types of WebLogic resources, you can use the WebLogic Remote Console to define the security policies and roles that restrict access. However, for Web application and EJB resources, you can also use deployment descriptors.</p>
 <p>The general process to secure a WebLogic resource is:</p>
 <ol>
-<li>Create <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#user_groups">users and groups</a></li>
+<li>Create <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#user_groups">users and groups</a></li>
 <li><strong>Optional</strong>: Manage default security roles or create new ones. We recommend that you use roles to secure WebLogic resources (instead of users or groups) to increase efficiency for administrators who work with many users. You can use the default roles that WebLogic Server provides or create your own.</li>
 <li>Create and apply security policies.</li>
 </ol>
@@ -461,7 +461,7 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
 <li>Enter a name for the new global role and click <strong>Create</strong>.</li>
 <li>Click <strong>Save</strong>.</li>
 </ol>
-<p>After the role is created, you can build a policy that uses conditions to determine which users or groups it encompasses. We recommend that whenever possible you use the Group condition which grants the security role to all members of the specified group. See <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#edit-policy">Edit a policy</a> for more details on how you can edit conditions.</p>
+<p>After the role is created, you can build a policy that uses conditions to determine which users or groups it encompasses. We recommend that whenever possible you use the Group condition which grants the security role to all members of the specified group. See <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#edit-policy">Edit a policy</a> for more details on how you can edit conditions.</p>
 <p>For a description of conditions in the Predicate List, see <a href="https://docs.oracle.com/en/middleware/standalone/weblogic-server/14.1.1.0/roles/secroles.html#GUID-06D3F08F-5A98-4649-A3F4-5D08B76C72CD">Security Role Conditions</a></p>
 <h4 id="create-scoped-roles">Create scoped roles</h4>
 <p>Scoped roles can only be used with policies that apply to specific resources.</p>
@@ -472,7 +472,7 @@ Note You must be logged in as a user with the Admin role and have the WebLogic R
 <li>Click <strong>New</strong>.</li>
 <li>Enter a name for the new scoped role and click <strong>Create</strong>.</li>
 </ol>
-<p>After the role is created, you can build a policy that uses conditions to determine which users or groups it encompasses. We recommend that whenever possible you use the Group condition which grants the security role to all members of a specified group. See <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#edit-policy">Edit a policy</a> for more details on how you can edit conditions.</p>
+<p>After the role is created, you can build a policy that uses conditions to determine which users or groups it encompasses. We recommend that whenever possible you use the Group condition which grants the security role to all members of a specified group. See <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#edit-policy">Edit a policy</a> for more details on how you can edit conditions.</p>
 <p>For a description of conditions in the Predicate List, see <a href="https://docs.oracle.com/en/middleware/standalone/weblogic-server/14.1.1.0/roles/secroles.html#GUID-06D3F08F-5A98-4649-A3F4-5D08B76C72CD">Security Role Conditions</a></p>
 <h3 id="sec_policies">Security policies</h3>
 <p>A security policy specifies the conditions that users, groups, or roles must meet to access a resource. Policies must have one or more conditions and you can combine conditions to create complex policies for more dynamic access control.</p>
@@ -586,14 +586,14 @@ You can only edit the arguments of the condition. If you want to use a different
 <ul>
 <li>App Deployments
 <ul>
-<li><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#ejbs">EJBs</a></li>
-<li><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#jdbc-apps">JDBC applications</a></li>
-<li><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#jdbc-modules">JDBC modules</a></li>
-<li><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#resource-adapters">Resource adapters</a></li>
+<li><a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#ejbs">EJBs</a></li>
+<li><a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#jdbc-apps">JDBC applications</a></li>
+<li><a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#jdbc-modules">JDBC modules</a></li>
+<li><a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#resource-adapters">Resource adapters</a></li>
 </ul>
 </li>
-<li><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#data-sources">Data Sources</a></li>
-<li><a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#remote-resources">Remote Resources</a></li>
+<li><a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#data-sources">Data Sources</a></li>
+<li><a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#remote-resources">Remote Resources</a></li>
 </ul>
 <h3 id="ejbs">App Deployments: EJBs</h3>
 <h4 id="identify-an-ejb-component">Identify an EJB Component</h4>
@@ -606,7 +606,7 @@ You can only edit the arguments of the condition. If you want to use a different
 <li>Click <strong>Create</strong>.</li>
 </ol>
 <p>A reference to the EJB component is added under the EJBs node. The name of the EJB component is generated by the properties of the application and those you set when adding the EJB component.</p>
-<p>For information on how to manage the credential mappings, see <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
+<p>For information on how to manage the credential mappings, see <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
 <h4 id="remove-a-reference-to-an-ejb-component">Remove a reference to an EJB Component</h4>
 <p>You cannot delete a reference to an EJB component with multiple credential mappings. To delete an EJB component reference, you must delete all of the credential mappings first - which will then delete the EJB component reference automatically - or delete all but one of the credential mappings and then follow these steps:</p>
 <ol>
@@ -615,7 +615,7 @@ You can only edit the arguments of the condition. If you want to use a different
 </ol>
 <h3 id="jdbc-apps">App Deployments: JDBC Application</h3>
 <p>You can only add credential mappings for JDBC applications, not manage the JDBC applications themselves.</p>
-<p>For information on how to manage the credential mappings, see <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
+<p>For information on how to manage the credential mappings, see <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
 <h3 id="jdbc-modules">App Deployments: JDBC Modules</h3>
 <h4 id="identify-a-jdbc-module">Identify a JDBC Module</h4>
 <p>The first time you add a reference to a JDBC module, you&rsquo;ll also create a credential mapping for that JDBC module.</p>
@@ -626,7 +626,7 @@ You can only edit the arguments of the condition. If you want to use a different
 <li>Fill in the fields as required.</li>
 <li>Click <strong>Create</strong>.</li>
 </ol>
-<p>For information on how to manage the credential mappings, see <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
+<p>For information on how to manage the credential mappings, see <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
 <h4 id="remove-a-reference-to-a-jdbc-module">Remove a reference to a JDBC Module</h4>
 <p>You cannot delete a reference to a JDBC module with multiple credential mappings. To delete a JDBC module reference, you must delete all of the credential mappings first - which will then delete the JDBC module reference automatically - or delete all but one of the credential mappings and then follow these steps:</p>
 <ol>
@@ -644,7 +644,7 @@ You can only edit the arguments of the condition. If you want to use a different
 <li>Click <strong>Create</strong>.</li>
 </ol>
 <p>A reference to a resource adapter is added under the Remote Adapters node. The name of the resource adapter is generated by combining its property values.</p>
-<p>For information on how to manage the credential mappings, see <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
+<p>For information on how to manage the credential mappings, see <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
 <h4 id="remove-a-reference-to-resource-adapter">Remove a reference to Resource Adapter</h4>
 <p>You cannot delete a reference to a resource adapter with multiple credential mappings. To delete a resource adapter reference, you must delete all of the credential mappings first - which will then delete the resource adapter reference automatically - or delete all but one of the credential mappings and then follow these steps:</p>
 <ol>
@@ -653,7 +653,7 @@ You can only edit the arguments of the condition. If you want to use a different
 </ol>
 <h3 id="data-sources">Data Sources</h3>
 <p>You can only add credential mappings for data sources, not manage the data sources themselves. You can manage data sources in the Edit tree perspective.</p>
-<p>For information on how to manage the credential mappings, see <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
+<p>For information on how to manage the credential mappings, see <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
 <h3 id="remote-resources">Remote Resources</h3>
 <h4 id="identify-a-remote-resource">Identify a remote resource</h4>
 <p>The first time you add a reference to a remote resource, you&rsquo;ll also create a credential mapping for that remote resource.</p>
@@ -673,7 +673,7 @@ You can only edit the arguments of the condition. If you want to use a different
 <li>Click <strong>Create</strong>.</li>
 </ol>
 <p>A reference to a remote resource is added under the remote resources node. The name of the remote resource is generated by combining its property values.</p>
-<p>For information on how to manage the credential mappings, see <a href="/lfeigen.github.io/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
+<p>For information on how to manage the credential mappings, see <a href="/weblogic-remote-console/2.4.11/userguide/providers/administration-server/security-data/#credential-mappings">Credential Mappings</a>.</p>
 <h4 id="remove-a-reference-to-a-remote-resource">Remove a reference to a remote resource</h4>
 <p>You cannot delete a reference to a remote resource with multiple credential mappings. To delete a remote resource reference, you must delete all of the credential mappings first - which will then delete the remote resource reference automatically - or delete all but one of the credential mappings and then follow these steps:</p>
 <ol>
@@ -763,9 +763,9 @@ Removing a credential from the WebLogic Remote Console will not affect the user 
 </footer>
 
     </div>
-    <script src="//lfeigen.github.io/weblogic-remote-console/js/main.min.90902a026ed2aee7ed45d85797f4c790b240ba148ac6f8a6f194cb1981ffecf5.js" integrity="sha256-kJAqAm7SruftRdhXl/THkLJAuhSKxvim8ZTLGYH/7PU=" crossorigin="anonymous"></script>
-<script defer src="//lfeigen.github.io/weblogic-remote-console/js/click-to-copy.min.73478a7d4807698aed7e355eb23f9890ca18fea3158604c8471746d046702bad.js" integrity="sha256-c0eKfUgHaYrtfjVesj&#43;YkMoY/qMVhgTIRxdG0EZwK60=" crossorigin="anonymous"></script>
-<script src='/lfeigen.github.io/weblogic-remote-console/js/tabpane-persist.js'></script>
+    <script src="/weblogic-remote-console/js/main.min.90902a026ed2aee7ed45d85797f4c790b240ba148ac6f8a6f194cb1981ffecf5.js" integrity="sha256-kJAqAm7SruftRdhXl/THkLJAuhSKxvim8ZTLGYH/7PU=" crossorigin="anonymous"></script>
+<script defer src="/weblogic-remote-console/js/click-to-copy.min.73478a7d4807698aed7e355eb23f9890ca18fea3158604c8471746d046702bad.js" integrity="sha256-c0eKfUgHaYrtfjVesj&#43;YkMoY/qMVhgTIRxdG0EZwK60=" crossorigin="anonymous"></script>
+<script src='/weblogic-remote-console/js/tabpane-persist.js'></script>
 
   </body>
 </html>
