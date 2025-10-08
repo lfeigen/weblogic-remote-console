@@ -1,28 +1,28 @@
 <!doctype html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js">
-  <head>
+  <head><script src="/weblogic-remote-console/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=weblogic-remote-console/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="alternate" type="application/rss&#43;xml" href="/2.4.13/administration-server/configuring-services/index.xml">
-<meta name="robots" content="index, follow">
+<link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/weblogic-remote-console/2.4.13/administration-server/configuring-services/index.xml">
+<meta name="robots" content="noindex, nofollow">
 
 
-<link rel="shortcut icon" href="/favicons/favicon.ico" >
-<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
-<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
-<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
-<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
-<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
-<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+<link rel="shortcut icon" href="/weblogic-remote-console/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/weblogic-remote-console/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/weblogic-remote-console/favicons/android-192x192.png" sizes="192x192">
 
 <title>Configuring Services | WebLogic Remote Console</title>
 <meta name="description" content="Use WebLogic Remote Console to manage services in a WebLogic Server domain.
 Data Sources You can connect WebLogic Server to databases by adding JDBC data sources to your domain. A data source is a Java EE standard method of configuring connectivity to a database.
 Each WebLogic data source contains a pool of database connections. Applications look up the data source on the JNDI tree or in the local application context and then use a database connection from the pool of connections. Data sources and their connection pools provide connection management processes that help keep your system running efficiently.">
-<meta property="og:url" content="/2.4.13/administration-server/configuring-services/">
+<meta property="og:url" content="http://localhost:1313/weblogic-remote-console/2.4.13/administration-server/configuring-services/">
   <meta property="og:site_name" content="WebLogic Remote Console">
   <meta property="og:title" content="Configuring Services">
   <meta property="og:description" content="Use WebLogic Remote Console to manage services in a WebLogic Server domain.
@@ -41,8 +41,7 @@ Each WebLogic data source contains a pool of database connections. Applications 
   <meta name="twitter:description" content="Use WebLogic Remote Console to manage services in a WebLogic Server domain.
 Data Sources You can connect WebLogic Server to databases by adding JDBC data sources to your domain. A data source is a Java EE standard method of configuring connectivity to a database.
 Each WebLogic data source contains a pool of database connections. Applications look up the data source on the JNDI tree or in the local application context and then use a database connection from the pool of connections. Data sources and their connection pools provide connection management processes that help keep your system running efficiently.">
-<link rel="preload" href="/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" as="style" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
-<link href="/scss/main.min.48c25d0a5a23a1e8cae94d6c5e7622061e5345cf098171b1d6ee41d8e309e6c8.css" rel="stylesheet" integrity="sha256-SMJdClojoejK6U1sXnYiBh5TRc8JgXGx1u5B2OMJ5sg=" crossorigin="anonymous">
+<link href="/weblogic-remote-console/scss/main.css" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -57,17 +56,22 @@ Each WebLogic data source contains a pool of database connections. Applications 
     <header>
       <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
 <div class="container-fluid flex-column flex-md-row">
-  <a class="navbar-brand" href="/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">WebLogic Remote Console</span></a>
+  <a class="navbar-brand" href="/weblogic-remote-console/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">WebLogic Remote Console</span></a>
   <div class="td-navbar-nav-scroll ms-md-auto" id="main_navbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/overview"><span>Documentation</span></a>
+        <a class="nav-link" href="/weblogic-remote-console/overview/"><span>Documentation</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/weblogic-remote-console/set-console/get-know-console/bean-map/"><span>Console Map</span></a>
       </li>
       <li class="nav-item dropdown d-none d-lg-block">
         <div class="dropdown">
   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Releases</a>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="/weblogic-remote-console/overview">Latest (v2.4.16)</a></li>
+    <li><a class="dropdown-item" href="/weblogic-remote-console/overview">Latest (v2.4.18)</a></li>
+    <li><a class="dropdown-item" href="/weblogic-remote-console/2.4.17">v2.4.17</a></li>
+    <li><a class="dropdown-item" href="/weblogic-remote-console/2.4.16">v2.4.16</a></li>
     <li><a class="dropdown-item" href="/weblogic-remote-console/2.4.15">v2.4.15</a></li>
     <li><a class="dropdown-item" href="/weblogic-remote-console/2.4.14">v2.4.14</a></li>
     <li><a class="dropdown-item" href="/weblogic-remote-console/2.4.13">v2.4.13</a></li>
@@ -138,7 +142,7 @@ Each WebLogic data source contains a pool of database connections. Applications 
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.d874cf970bc57419b247ef101f81d5e2.json"
+    data-offline-search-index-json-src="/weblogic-remote-console/offline-search-index.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -163,7 +167,7 @@ Each WebLogic data source contains a pool of database connections. Applications 
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.d874cf970bc57419b247ef101f81d5e2.json"
+    data-offline-search-index-json-src="/weblogic-remote-console/offline-search-index.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -175,85 +179,85 @@ Each WebLogic data source contains a pool of database connections. Applications 
   <div id="content-desktop"></div>
   <nav class="td-sidebar-nav collapse td-sidebar-nav--search-disabled foldable-nav" id="td-section-nav">
     <ul class="td-sidebar-nav__section pe-md-3 ul-0">
-      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-2413-li">
-  <a href="/2.4.13/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-2413"><span class="">About WebLogic Remote Console</span></a>
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-weblogic-remote-console2413-li">
+  <a href="/weblogic-remote-console/2.4.13/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-weblogic-remote-console2413"><span class="">About WebLogic Remote Console</span></a>
   <ul class="ul-1">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-2413set-console-li">
-  <input type="checkbox" id="m-2413set-console-check"/>
-  <label for="m-2413set-console-check"><a href="/2.4.13/set-console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413set-console"><span class="">Get Started</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-weblogic-remote-console2413set-console-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413set-console-check"/>
+  <label for="m-weblogic-remote-console2413set-console-check"><a href="/weblogic-remote-console/2.4.13/set-console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413set-console"><span class="">Get Started</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413set-consoleget-know-console-li">
-  <input type="checkbox" id="m-2413set-consoleget-know-console-check"/>
-  <label for="m-2413set-consoleget-know-console-check"><a href="/2.4.13/set-console/get-know-console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413set-consoleget-know-console"><span class="">Get to Know the Console</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413set-consoleget-know-console-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413set-consoleget-know-console-check"/>
+  <label for="m-weblogic-remote-console2413set-consoleget-know-console-check"><a href="/weblogic-remote-console/2.4.13/set-console/get-know-console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413set-consoleget-know-console"><span class="">Get to Know the Console</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413set-consolecontribute-wrc-repository-li">
-  <input type="checkbox" id="m-2413set-consolecontribute-wrc-repository-check"/>
-  <label for="m-2413set-consolecontribute-wrc-repository-check"><a href="/2.4.13/set-console/contribute-wrc-repository/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413set-consolecontribute-wrc-repository"><span class="">Contribute to WebLogic Remote Console</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413set-consolecontribute-wrc-repository-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413set-consolecontribute-wrc-repository-check"/>
+  <label for="m-weblogic-remote-console2413set-consolecontribute-wrc-repository-check"><a href="/weblogic-remote-console/2.4.13/set-console/contribute-wrc-repository/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413set-consolecontribute-wrc-repository"><span class="">Contribute to WebLogic Remote Console</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413set-consolesupport-information-li">
-  <input type="checkbox" id="m-2413set-consolesupport-information-check"/>
-  <label for="m-2413set-consolesupport-information-check"><a href="/2.4.13/set-console/support-information/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413set-consolesupport-information"><span class="">Support Information</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413set-consolesupport-information-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413set-consolesupport-information-check"/>
+  <label for="m-weblogic-remote-console2413set-consolesupport-information-check"><a href="/weblogic-remote-console/2.4.13/set-console/support-information/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413set-consolesupport-information"><span class="">Support Information</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-2413administration-server-li">
-  <input type="checkbox" id="m-2413administration-server-check" checked/>
-  <label for="m-2413administration-server-check"><a href="/2.4.13/administration-server/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413administration-server"><span class="">Administration Server</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-weblogic-remote-console2413administration-server-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413administration-server-check" checked/>
+  <label for="m-weblogic-remote-console2413administration-server-check"><a href="/weblogic-remote-console/2.4.13/administration-server/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413administration-server"><span class="">Administration Server</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413administration-serverdomain-configuration-li">
-  <input type="checkbox" id="m-2413administration-serverdomain-configuration-check"/>
-  <label for="m-2413administration-serverdomain-configuration-check"><a href="/2.4.13/administration-server/domain-configuration/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413administration-serverdomain-configuration"><span class="">Domain Configuration</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413administration-serverdomain-configuration-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413administration-serverdomain-configuration-check"/>
+  <label for="m-weblogic-remote-console2413administration-serverdomain-configuration-check"><a href="/weblogic-remote-console/2.4.13/administration-server/domain-configuration/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413administration-serverdomain-configuration"><span class="">Domain Configuration</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413administration-serversecuring-domains-li">
-  <input type="checkbox" id="m-2413administration-serversecuring-domains-check"/>
-  <label for="m-2413administration-serversecuring-domains-check"><a href="/2.4.13/administration-server/securing-domains/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413administration-serversecuring-domains"><span class="">Securing Domains</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413administration-serversecuring-domains-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413administration-serversecuring-domains-check"/>
+  <label for="m-weblogic-remote-console2413administration-serversecuring-domains-check"><a href="/weblogic-remote-console/2.4.13/administration-server/securing-domains/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413administration-serversecuring-domains"><span class="">Securing Domains</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413administration-serverdeploying-applications-li">
-  <input type="checkbox" id="m-2413administration-serverdeploying-applications-check"/>
-  <label for="m-2413administration-serverdeploying-applications-check"><a href="/2.4.13/administration-server/deploying-applications/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413administration-serverdeploying-applications"><span class="">Deploying Applications</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413administration-serverdeploying-applications-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413administration-serverdeploying-applications-check"/>
+  <label for="m-weblogic-remote-console2413administration-serverdeploying-applications-check"><a href="/weblogic-remote-console/2.4.13/administration-server/deploying-applications/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413administration-serverdeploying-applications"><span class="">Deploying Applications</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413administration-servermonitoring-domains-li">
-  <input type="checkbox" id="m-2413administration-servermonitoring-domains-check"/>
-  <label for="m-2413administration-servermonitoring-domains-check"><a href="/2.4.13/administration-server/monitoring-domains/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413administration-servermonitoring-domains"><span class="">Monitoring Domains</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413administration-servermonitoring-domains-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413administration-servermonitoring-domains-check"/>
+  <label for="m-weblogic-remote-console2413administration-servermonitoring-domains-check"><a href="/weblogic-remote-console/2.4.13/administration-server/monitoring-domains/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413administration-servermonitoring-domains"><span class="">Monitoring Domains</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-2413administration-serverconfiguring-services-li">
-  <input type="checkbox" id="m-2413administration-serverconfiguring-services-check" checked/>
-  <label for="m-2413administration-serverconfiguring-services-check"><a href="/2.4.13/administration-server/configuring-services/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__section" id="m-2413administration-serverconfiguring-services"><span class="td-sidebar-nav-active-item">Configuring Services</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-weblogic-remote-console2413administration-serverconfiguring-services-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413administration-serverconfiguring-services-check" checked/>
+  <label for="m-weblogic-remote-console2413administration-serverconfiguring-services-check"><a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413administration-serverconfiguring-services"><span class="td-sidebar-nav-active-item">Configuring Services</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413administration-serverconfiguring-coherence-li">
-  <input type="checkbox" id="m-2413administration-serverconfiguring-coherence-check"/>
-  <label for="m-2413administration-serverconfiguring-coherence-check"><a href="/2.4.13/administration-server/configuring-coherence/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413administration-serverconfiguring-coherence"><span class="">Configuring Coherence</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413administration-serverconfiguring-coherence-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413administration-serverconfiguring-coherence-check"/>
+  <label for="m-weblogic-remote-console2413administration-serverconfiguring-coherence-check"><a href="/weblogic-remote-console/2.4.13/administration-server/configuring-coherence/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413administration-serverconfiguring-coherence"><span class="">Configuring Coherence</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413administration-serverscheduling-work-li">
-  <input type="checkbox" id="m-2413administration-serverscheduling-work-check"/>
-  <label for="m-2413administration-serverscheduling-work-check"><a href="/2.4.13/administration-server/scheduling-work/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413administration-serverscheduling-work"><span class="">Scheduling Work</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413administration-serverscheduling-work-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413administration-serverscheduling-work-check"/>
+  <label for="m-weblogic-remote-console2413administration-serverscheduling-work-check"><a href="/weblogic-remote-console/2.4.13/administration-server/scheduling-work/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413administration-serverscheduling-work"><span class="">Scheduling Work</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-2413weblogic-deploy-tooling-li">
-  <input type="checkbox" id="m-2413weblogic-deploy-tooling-check"/>
-  <label for="m-2413weblogic-deploy-tooling-check"><a href="/2.4.13/weblogic-deploy-tooling/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413weblogic-deploy-tooling"><span class="">WebLogic Deploy Tooling</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-weblogic-remote-console2413weblogic-deploy-tooling-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413weblogic-deploy-tooling-check"/>
+  <label for="m-weblogic-remote-console2413weblogic-deploy-tooling-check"><a href="/weblogic-remote-console/2.4.13/weblogic-deploy-tooling/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413weblogic-deploy-tooling"><span class="">WebLogic Deploy Tooling</span></a></label>
   
   <ul class="ul-2 foldable">
-    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413weblogic-deploy-toolingwdt-model-files-li">
-  <input type="checkbox" id="m-2413weblogic-deploy-toolingwdt-model-files-check"/>
-  <label for="m-2413weblogic-deploy-toolingwdt-model-files-check"><a href="/2.4.13/weblogic-deploy-tooling/wdt-model-files/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413weblogic-deploy-toolingwdt-model-files"><span class="">WDT Model Files</span></a></label>
+    <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413weblogic-deploy-toolingwdt-model-files-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413weblogic-deploy-toolingwdt-model-files-check"/>
+  <label for="m-weblogic-remote-console2413weblogic-deploy-toolingwdt-model-files-check"><a href="/weblogic-remote-console/2.4.13/weblogic-deploy-tooling/wdt-model-files/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413weblogic-deploy-toolingwdt-model-files"><span class="">WDT Model Files</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413weblogic-deploy-toolingwdt-composites-li">
-  <input type="checkbox" id="m-2413weblogic-deploy-toolingwdt-composites-check"/>
-  <label for="m-2413weblogic-deploy-toolingwdt-composites-check"><a href="/2.4.13/weblogic-deploy-tooling/wdt-composites/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413weblogic-deploy-toolingwdt-composites"><span class="">WDT Composite Models</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413weblogic-deploy-toolingwdt-composites-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413weblogic-deploy-toolingwdt-composites-check"/>
+  <label for="m-weblogic-remote-console2413weblogic-deploy-toolingwdt-composites-check"><a href="/weblogic-remote-console/2.4.13/weblogic-deploy-tooling/wdt-composites/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413weblogic-deploy-toolingwdt-composites"><span class="">WDT Composite Models</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413weblogic-deploy-toolingproperty-lists-li">
-  <input type="checkbox" id="m-2413weblogic-deploy-toolingproperty-lists-check"/>
-  <label for="m-2413weblogic-deploy-toolingproperty-lists-check"><a href="/2.4.13/weblogic-deploy-tooling/property-lists/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413weblogic-deploy-toolingproperty-lists"><span class="">Property Lists</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413weblogic-deploy-toolingproperty-lists-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413weblogic-deploy-toolingproperty-lists-check"/>
+  <label for="m-weblogic-remote-console2413weblogic-deploy-toolingproperty-lists-check"><a href="/weblogic-remote-console/2.4.13/weblogic-deploy-tooling/property-lists/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413weblogic-deploy-toolingproperty-lists"><span class="">Property Lists</span></a></label>
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-2413troubleshoot-weblogic-remote-console-li">
-  <input type="checkbox" id="m-2413troubleshoot-weblogic-remote-console-check"/>
-  <label for="m-2413troubleshoot-weblogic-remote-console-check"><a href="/2.4.13/troubleshoot-weblogic-remote-console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-2413troubleshoot-weblogic-remote-console"><span class="">Troubleshoot Issues with WebLogic Remote Console</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-weblogic-remote-console2413troubleshoot-weblogic-remote-console-li">
+  <input type="checkbox" id="m-weblogic-remote-console2413troubleshoot-weblogic-remote-console-check"/>
+  <label for="m-weblogic-remote-console2413troubleshoot-weblogic-remote-console-check"><a href="/weblogic-remote-console/2.4.13/troubleshoot-weblogic-remote-console/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-weblogic-remote-console2413troubleshoot-weblogic-remote-console"><span class="">Troubleshoot Issues with WebLogic Remote Console</span></a></label>
   
 </li>
   </ul>
@@ -342,9 +346,9 @@ Each WebLogic data source contains a pool of database connections. Applications 
             <nav aria-label="breadcrumb" class="td-breadcrumbs">
   <ol class="breadcrumb">
   <li class="breadcrumb-item">
-    <a href="/2.4.13/">About WebLogic Remote Console</a></li>
+    <a href="/weblogic-remote-console/2.4.13/">About WebLogic Remote Console</a></li>
   <li class="breadcrumb-item">
-    <a href="/2.4.13/administration-server/">Administration Server</a></li>
+    <a href="/weblogic-remote-console/2.4.13/administration-server/">Administration Server</a></li>
   <li class="breadcrumb-item active" aria-current="page">
     Configuring Services</li>
   </ol>
@@ -435,7 +439,7 @@ Each WebLogic data source contains a pool of database connections. Applications 
 <h3 id="GUID-33543D1B-BB22-4DBC-9011-A2D3E3553858">Create a Multi Data Source</h3>
 <p>A multi data source is an abstraction around a group of generic data sources. It provides failover and load balancing for connection requests between two or more data sources.</p>
 <p>For more information on multi data sources, see <a href="https://docs.oracle.com/pls/topic/lookup?ctx=en/middleware/fusion-middleware/weblogic-remote-console/administer&amp;id=JDBCA-GUID-CF34E3FE-C329-4006-9506-34544B8447CD">Using JDBC Multi Data Sources</a> in <strong>Administering JDBC Data Sources for Oracle WebLogic Server</strong>.</p>
-<p>Before you create a multi data source, you should create the generic data sources that the multi data source will manage, and ensure they are deployed to same targets as where you plan to deploy the multi data source. See <a href="/2.4.13/administration-server/configuring-services/#GUID-2089B850-BA49-4677-B5E4-F225B563698A">Create a Generic Data Source</a>.</p>
+<p>Before you create a multi data source, you should create the generic data sources that the multi data source will manage, and ensure they are deployed to same targets as where you plan to deploy the multi data source. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-2089B850-BA49-4677-B5E4-F225B563698A">Create a Generic Data Source</a>.</p>
 <ol>
 <li>
 <p>In the <strong>Edit Tree</strong>, go to <strong>Services</strong>, then <strong>Data Sources</strong>.</p>
@@ -487,7 +491,7 @@ The option you select limits the data sources that you can select as part of the
 </ol>
 <h4 id="GUID-BCEE5277-8A52-4337-9B62-CFA9471C0671">Add or Remove Data Sources in a Multi Data Source</h4>
 <p>You can add or remove data sources to a multi data source while the data source is deployed (referred to as dynamically changing the data source list in the multi data source).</p>
-<p>The data sources that you add to a multi data source must be deployed on the same targets on which you intend to deploy the multi data source. You cannot include data sources in a multi data source that are deployed on different servers or clusters. See <a href="/2.4.13/administration-server/configuring-services/#GUID-D4E085B2-DD26-431B-B602-94F29C52BAE1">Target Data Sources</a>.</p>
+<p>The data sources that you add to a multi data source must be deployed on the same targets on which you intend to deploy the multi data source. You cannot include data sources in a multi data source that are deployed on different servers or clusters. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-D4E085B2-DD26-431B-B602-94F29C52BAE1">Target Data Sources</a>.</p>
 <ol>
 <li>
 <p>In the <strong>Edit Tree</strong>, go to <strong>Services</strong>, then <strong>Data Sources</strong>.</p>
@@ -613,7 +617,7 @@ The option you select limits the data sources that you can select as part of the
 <li>In the <strong>Monitoring Tree</strong>, go to <strong>Services</strong>, then <strong>Data Sources</strong>, then <strong>JDBC Data Source Runtime MBeans</strong>.</li>
 <li>Select the data source that you want to manage and then choose the control operation that you want to perform on the data source.</li>
 </ol>
-<p><a href="/2.4.13/administration-server/configuring-services/#TABLE_YT5_TQW_CBC">Table 1</a> describes the control operations that you can perform on a JDBC data source.</p>
+<p><a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#TABLE_YT5_TQW_CBC">Table 1</a> describes the control operations that you can perform on a JDBC data source.</p>
 <table id="GUID-C61D7557-E83E-477D-A1E9-BF7281CF12D9__TABLE_YT5_TQW_CBC">
                            <caption>
                               <span>
@@ -718,7 +722,7 @@ The option you select limits the data sources that you can select as part of the
 <p>Select the data source for which you want to see statistics.</p>
 </li>
 </ol>
-<p>By default, this data source page will display all of the statistics that are available for the selected data source. To refine the information, customize the table to show only relevant statistics. See <a href="/2.4.13/set-console/get-know-console/#GUID-FF37D291-F8C5-4EFB-8A18-DADF035348C9">Customize a Table</a>.</p>
+<p>By default, this data source page will display all of the statistics that are available for the selected data source. To refine the information, customize the table to show only relevant statistics. See <a href="/weblogic-remote-console/2.4.13/set-console/get-know-console/#GUID-FF37D291-F8C5-4EFB-8A18-DADF035348C9">Customize a Table</a>.</p>
 <h3 id="GUID-D4E085B2-DD26-431B-B602-94F29C52BAE1">Target Data Sources</h3>
 <p>When you target a JDBC data source, a new instance of the data source is created on the target. When you select a <em>server</em> as a target, an instance of the data source is created on the server. When you select a <em>cluster</em> as a target, an instance of the data source is created on <em>all</em> servers in the cluster.</p>
 <p>Make sure that the JDBC drivers that you want to use to create database connections are installed on all servers on which you want to deploy the data source. See <a href="https://docs.oracle.com/pls/topic/lookup?ctx=en/middleware/fusion-middleware/weblogic-remote-console/administer&amp;id=JDBCA-GUID-2BAFE654-B10B-4A72-9D1C-A10FCCFBA458">Using JDBC Drivers with WebLogic Server</a> in <strong>Administering JDBC Data Sources for Oracle WebLogic Server</strong>.</p>
@@ -793,7 +797,7 @@ The option you select limits the data sources that you can select as part of the
 <p>For more information about using JDBC over RMI, see <a href="https://docs.oracle.com/pls/topic/lookup?ctx=en/middleware/fusion-middleware/weblogic-remote-console/administer&amp;id=JDCBP-GUID-54294308-E996-46C4-82D2-0F1CE122956F">Using the WebLogic RMI Driver (Deprecated)</a> in <strong>Developing JDBC Applications for Oracle WebLogic Server</strong>.</p>
 <ol>
 <li>
-<p>If you plan to choose the <code>Secure</code> option, you must first configure an SSL/TLS listen port channel. See <a href="/2.4.13/administration-server/domain-configuration/#GUID-9084C04C-06CC-4E14-85B6-CFC755E7A428">Specify Listen Ports</a>.</p>
+<p>If you plan to choose the <code>Secure</code> option, you must first configure an SSL/TLS listen port channel. See <a href="/weblogic-remote-console/2.4.13/administration-server/domain-configuration/#GUID-9084C04C-06CC-4E14-85B6-CFC755E7A428">Specify Listen Ports</a>.</p>
 </li>
 <li>
 <p>In the <strong>Edit Tree</strong>, go to <strong>Environment</strong>, then <strong>Servers</strong>. Click <strong>Show Advanced Fields</strong>.</p>
@@ -873,7 +877,7 @@ For more information, see <a href="https://docs.oracle.com/pls/topic/lookup?ctx=
 <li>
 <p>From the <strong>Persistent Store</strong> drop-down list, choose the store where this JMS server should store its persistent messages.</p>
 <p>If you want to use the default persistent store provided by WebLogic Server, leave <strong>Persistent Store</strong> set to None.</p>
-<p>If you don&rsquo;t have a custom persistent store configured yet, click the <strong>More ︙</strong> button beside <strong>Persistent Store</strong> and then select either <strong>New File Store</strong> or <strong>New JDBC Stores</strong>. Then, follow the instructions at <a href="/2.4.13/administration-server/configuring-services/#GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</a> or <a href="/2.4.13/administration-server/configuring-services/#GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</a>. Select the newly created store from the <strong>Persistent Store</strong> drop-down list.</p>
+<p>If you don&rsquo;t have a custom persistent store configured yet, click the <strong>More ︙</strong> button beside <strong>Persistent Store</strong> and then select either <strong>New File Store</strong> or <strong>New JDBC Stores</strong>. Then, follow the instructions at <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</a> or <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</a>. Select the newly created store from the <strong>Persistent Store</strong> drop-down list.</p>
 
 
 <div class="alert alert-primary" role="alert">
@@ -944,7 +948,7 @@ For more information, see <a href="https://docs.oracle.com/pls/topic/lookup?ctx=
 <p>A new node will appear under <strong>JMS Modules</strong> in the Navigation Tree for your JMS system module.</p>
 </li>
 <li>
-<p>Expand the new node for your JMS system module to see its children which are the JMS system resources that you can configure. See <a href="/2.4.13/administration-server/configuring-services/#GUID-723C3B6E-6C57-48E7-B265-C4FF90D270A6">Configure Resources for JMS System Modules</a>.</p>
+<p>Expand the new node for your JMS system module to see its children which are the JMS system resources that you can configure. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-723C3B6E-6C57-48E7-B265-C4FF90D270A6">Configure Resources for JMS System Modules</a>.</p>
 </li>
 </ol>
 <h4 id="GUID-723C3B6E-6C57-48E7-B265-C4FF90D270A6">Configure Resources for JMS System Modules</h4>
@@ -1003,7 +1007,7 @@ For guidance on how to configure JMS modules, see <a href="https://docs.oracle.c
 <li>
 <p>From the <strong>Persistent Store</strong> drop-down list, choose the store where this SAF agent will store its persistent messages.</p>
 <p>If you want to use the default persistent store provided by WebLogic Server, leave <strong>Persistent Store</strong> set to <code>None</code>.</p>
-<p>If you don&rsquo;t have a custom persistent store configured yet, click the <strong>More ︙</strong> button beside <strong>Persistent Store</strong> and then either <strong>New File Store</strong> or <strong>New JDBC Stores</strong>. Then, follow the instructions at <a href="/2.4.13/administration-server/configuring-services/#GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</a> or <a href="/2.4.13/administration-server/configuring-services/#GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</a>.</p>
+<p>If you don&rsquo;t have a custom persistent store configured yet, click the <strong>More ︙</strong> button beside <strong>Persistent Store</strong> and then either <strong>New File Store</strong> or <strong>New JDBC Stores</strong>. Then, follow the instructions at <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</a> or <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</a>.</p>
 <ul>
 <li>
 <p>When a SAF agent is targeted to a cluster, a SAF Agent must use a custom store with <strong>Distribution Policy</strong> set to <code>Distributed</code> and is targeted to the same cluster.</p>
@@ -1097,7 +1101,7 @@ JMS SAF users should select <strong>Sending-only</strong> as JMS SAF doesn&rsquo
 <p>For more information, see <a href="https://docs.oracle.com/pls/topic/lookup?ctx=en/middleware/fusion-middleware/weblogic-remote-console/administer&amp;id=BRDGE-GUID-9A0D179A-65D6-4DC9-B187-20126B231835">Understanding the Messaging Bridge</a> in <strong>Administering the WebLogic Messaging Bridge for Oracle WebLogic Server</strong>.</p>
 <ol>
 <li>
-<p>If you haven&rsquo;t already, create and configure source and target JMS bridge destinations as described in <a href="/2.4.13/administration-server/configuring-services/#GUID-59A12FFE-D6D3-450E-BD53-765042E075CE">Create a JMS Bridge Destination</a>.</p>
+<p>If you haven&rsquo;t already, create and configure source and target JMS bridge destinations as described in <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-59A12FFE-D6D3-450E-BD53-765042E075CE">Create a JMS Bridge Destination</a>.</p>
 </li>
 <li>
 <p>In the <strong>Edit Tree</strong>, go to <strong>Services</strong>, then <strong>Messaging Bridge</strong>.</p>
@@ -1125,7 +1129,7 @@ JMS SAF users should select <strong>Sending-only</strong> as JMS SAF doesn&rsquo
 <h3 id="GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</h3>
 <p>A file store is a file-based repository for storing subsystem data, such as persistent JMS messages or durable subscriber information.</p>
 <p>A persistent store provides a built-in, high-performance storage solution for WebLogic Server subsystems and services that require persistence. For example, it can store persistent JMS messages or durable subscriber information, as well as temporarily store messages sent to an unavailable destination using the store-and-forward feature.</p>
-<p>The persistent store also supports persistence to a JDBC-enabled database (JDBC store). See <a href="/2.4.13/administration-server/configuring-services/#GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</a> instead.</p>
+<p>The persistent store also supports persistence to a JDBC-enabled database (JDBC store). See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</a> instead.</p>
 <ol>
 <li>
 <p>Create a directory on your file system for the file store.</p>
@@ -1161,10 +1165,10 @@ JMS SAF users should select <strong>Sending-only</strong> as JMS SAF doesn&rsquo
 <h3 id="GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</h3>
 <p>A JDBC store is a JDBC-accessible database for storing subsystem data, such as persistent JMS messages and durable subscriber information.</p>
 <p>A persistent store provides a built-in, high-performance storage solution for WebLogic Server subsystems and services that require persistence. For example, it can store persistent JMS messages or durable subscriber information, as well as temporarily store messages sent to an unavailable destination using the store-and-forward feature.</p>
-<p>The persistent store also supports persistence to a file-based store (file store). See <a href="/2.4.13/administration-server/configuring-services/#GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</a> instead.</p>
+<p>The persistent store also supports persistence to a file-based store (file store). See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</a> instead.</p>
 <ol>
 <li>
-<p>If you haven&rsquo;t already, create a JDBC data source. See <a href="/2.4.13/administration-server/configuring-services/#GUID-D92E5FE4-548C-49E1-9A77-A61A59039D21">Data Sources</a>.</p>
+<p>If you haven&rsquo;t already, create a JDBC data source. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-D92E5FE4-548C-49E1-9A77-A61A59039D21">Data Sources</a>.</p>
 <p>A JDBC store must use a JDBC data source that uses a non-XA JDBC driver and has <strong>Supports Global Transactions</strong> disabled. This limitation does not remove the XA capabilities of layered subsystems that use JDBC stores. For example, WebLogic JMS is fully XA-capable regardless of whether it uses a file store or any JDBC store.</p>
 <p>Make sure the data source is accessible to all candidate servers.</p>
 </li>
@@ -1204,16 +1208,16 @@ JMS SAF users should select <strong>Sending-only</strong> as JMS SAF doesn&rsquo
 <p>See:</p>
 <ul>
 <li>
-<p><a href="/2.4.13/administration-server/domain-configuration/#GUID-A7753EF9-756C-4F2D-9E70-495979B7EEE3">Configure Clusters</a></p>
+<p><a href="/weblogic-remote-console/2.4.13/administration-server/domain-configuration/#GUID-A7753EF9-756C-4F2D-9E70-495979B7EEE3">Configure Clusters</a></p>
 </li>
 <li>
-<p><a href="/2.4.13/administration-server/configuring-services/#GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</a> or <a href="/2.4.13/administration-server/configuring-services/#GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</a></p>
+<p><a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-83543D4D-C767-4258-A236-0E79A1997DBF">Create a File Store</a> or <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-68E358EF-6C72-4992-98E6-D95BC6429991">Create a JDBC Store</a></p>
 </li>
 <li>
-<p><a href="/2.4.13/administration-server/configuring-services/#GUID-B23D418A-C1D8-4AE3-BB35-8186409E4515">Create a Store-and-Forward Agent</a></p>
+<p><a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-B23D418A-C1D8-4AE3-BB35-8186409E4515">Create a Store-and-Forward Agent</a></p>
 </li>
 <li>
-<p><a href="/2.4.13/administration-server/configuring-services/#GUID-ABB99866-324C-4179-A91C-A97B6D63EC6E">Create a JMS System Module</a></p>
+<p><a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-ABB99866-324C-4179-A91C-A97B6D63EC6E">Create a JMS System Module</a></p>
 </li>
 </ul>
 </li>
@@ -1336,8 +1340,8 @@ JMS SAF users should select <strong>Sending-only</strong> as JMS SAF doesn&rsquo
 <h2 id="GUID-F516A8C2-629B-4660-B597-310A4F194C34">XML Resources</h2>
 <p>You can configure two different types of XML resources for WebLogic Server.</p>
 <ul>
-<li>XML registries, which you can use to specify alternative server-wide XML parsers and transformers for WebLogic Server to use when it parses and transforms XML documents. You can also use the XML registry to specify local copies of external entities and caching instructions for these entities. See <a href="/2.4.13/administration-server/configuring-services/#GUID-1C568EDE-9E40-4D32-B677-109974FE574F">Create an XML registry</a>.</li>
-<li>XML entity caches, which you can use to configure the cache that WebLogic Server uses to cache external entities. See <a href="/2.4.13/administration-server/configuring-services/#GUID-E1012B5E-38F5-498D-86F7-309D4904B602">Create an XML Entity Cache</a>.</li>
+<li>XML registries, which you can use to specify alternative server-wide XML parsers and transformers for WebLogic Server to use when it parses and transforms XML documents. You can also use the XML registry to specify local copies of external entities and caching instructions for these entities. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-1C568EDE-9E40-4D32-B677-109974FE574F">Create an XML registry</a>.</li>
+<li>XML entity caches, which you can use to configure the cache that WebLogic Server uses to cache external entities. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-E1012B5E-38F5-498D-86F7-309D4904B602">Create an XML Entity Cache</a>.</li>
 </ul>
 <p>You can create as many XML registries and entity caches as you like. However, you can only associate one of each type with a particular server instance of WebLogic Server.</p>
 <p>For more information on how XML resources are used in WebLogic Server, see <a href="https://docs.oracle.com/pls/topic/lookup?ctx=en/middleware/fusion-middleware/weblogic-remote-console/administer&amp;id=XMLPG-GUID-27BB3783-6FBB-4DA5-8F5C-1F8902ABB74F"><strong>Developing XML Applications for Oracle WebLogic Server</strong></a>.</p>
@@ -1382,12 +1386,12 @@ JMS SAF users should select <strong>Sending-only</strong> as JMS SAF doesn&rsquo
 </ol>
 </li>
 </ol>
-<p>Next, you must associate the XML registry with a WebLogic Server instance. See <a href="/2.4.13/administration-server/configuring-services/#GUID-A9DF992A-74D4-4746-BDE9-79ACCCF7D2B9">Target an XML Registry to a Server</a>.</p>
+<p>Next, you must associate the XML registry with a WebLogic Server instance. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-A9DF992A-74D4-4746-BDE9-79ACCCF7D2B9">Target an XML Registry to a Server</a>.</p>
 <h3 id="GUID-A9DF992A-74D4-4746-BDE9-79ACCCF7D2B9">Target an XML Registry to a Server</h3>
 <p>A WebLogic Server can only have one XML registry associated with it. However, you can target the same XML registry to multiple WebLogic Server instances.</p>
 <ol>
 <li>
-<p>If you haven&rsquo;t done so already, create an XML registry. See <a href="/2.4.13/administration-server/configuring-services/#GUID-1C568EDE-9E40-4D32-B677-109974FE574F">Create an XML registry</a>.</p>
+<p>If you haven&rsquo;t done so already, create an XML registry. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-1C568EDE-9E40-4D32-B677-109974FE574F">Create an XML registry</a>.</p>
 </li>
 <li>
 <p>In the <strong>Edit Tree</strong>, go to <strong>Environment</strong>, then <strong>Servers</strong>.</p>
@@ -1422,12 +1426,12 @@ JMS SAF users should select <strong>Sending-only</strong> as JMS SAF doesn&rsquo
 <p>Click <strong>Save</strong>.</p>
 </li>
 </ol>
-<p>Next, you must associate the XML entity cache with a WebLogic Server instance. See <a href="/2.4.13/administration-server/configuring-services/#GUID-0A422838-CDA6-4845-BA69-FED12DB72E6E">Target an XML Entity Cache to a Server</a>.</p>
+<p>Next, you must associate the XML entity cache with a WebLogic Server instance. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-0A422838-CDA6-4845-BA69-FED12DB72E6E">Target an XML Entity Cache to a Server</a>.</p>
 <h3 id="GUID-0A422838-CDA6-4845-BA69-FED12DB72E6E">Target an XML Entity Cache to a Server</h3>
 <p>A WebLogic Server instance can only have one XML entity cache associated with it.</p>
 <ol>
 <li>
-<p>If you haven&rsquo;t already done so, create an XML entity cache. See <a href="/2.4.13/administration-server/configuring-services/#GUID-E1012B5E-38F5-498D-86F7-309D4904B602">Create an XML Entity Cache</a>.</p>
+<p>If you haven&rsquo;t already done so, create an XML entity cache. See <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#GUID-E1012B5E-38F5-498D-86F7-309D4904B602">Create an XML Entity Cache</a>.</p>
 </li>
 <li>
 <p>In the <strong>Edit Tree</strong>, go to <strong>Environment</strong>, then <strong>Servers</strong>.</p>
@@ -1498,7 +1502,7 @@ Session session = (Session) ic.lookup(&#34;myMailSession&#34;);
 <p>Click <strong>Save</strong>.</p>
 </li>
 </ol>
-<p><a href="/2.4.13/administration-server/configuring-services/#TABLE_H4B_RWG_QBC">Table 2</a> describes the valid properties and default values, derived from the JavaMail API Design Specification.</p>
+<p><a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#TABLE_H4B_RWG_QBC">Table 2</a> describes the valid properties and default values, derived from the JavaMail API Design Specification.</p>
 </li>
 </ol>
 <table id="GUID-FACD70A2-6CEF-40A0-9A71-DBC51EF8A869__TABLE_H4B_RWG_QBC">
@@ -1670,11 +1674,11 @@ Session session = (Session) ic.lookup(&#34;myMailSession&#34;);
 <p>Click <strong>Save</strong> and then commit your changes.</p>
 </li>
 <li>
-<p>Create a user for local domain security and assign it to the <code>CrossDomainConnectors</code> group. See <a href="/2.4.13/administration-server/securing-domains/#GUID-7A265AF1-F634-45EE-B685-C969A95DC476">Create a User</a>.</p>
+<p>Create a user for local domain security and assign it to the <code>CrossDomainConnectors</code> group. See <a href="/weblogic-remote-console/2.4.13/administration-server/securing-domains/#GUID-7A265AF1-F634-45EE-B685-C969A95DC476">Create a User</a>.</p>
 <p>This user will be authorized to perform all JTA communication between servers in the domain.</p>
 </li>
 <li>
-<p>Configure a local domain security credential mapping for the local domain security user. Use the default credential mapping provider or, if you want to configure your own credential mapping provider, see <a href="/2.4.13/administration-server/securing-domains/#GUID-49DE7039-810D-433A-A5EB-6A4E1FEB885C">Configure a Credential Mapping Provider</a>.</p>
+<p>Configure a local domain security credential mapping for the local domain security user. Use the default credential mapping provider or, if you want to configure your own credential mapping provider, see <a href="/weblogic-remote-console/2.4.13/administration-server/securing-domains/#GUID-49DE7039-810D-433A-A5EB-6A4E1FEB885C">Configure a Credential Mapping Provider</a>.</p>
 <ol>
 <li>
 <p>In the <strong>Security Data Tree</strong>, go to <strong>Realms</strong>, then <em>myRealm</em>, then <strong>Credential Mappers</strong>, then <strong>Remote Resources</strong>.</p>
@@ -1689,7 +1693,7 @@ Session session = (Session) ic.lookup(&#34;myMailSession&#34;);
 <p>In the <strong>Remote Domain</strong> field, enter the name of the <em>local</em> domain.</p>
 </li>
 <li>
-<p>In the <strong>Remote User</strong> field, enter the username of the user you configured in step <a href="/2.4.13/administration-server/configuring-services/#STEP_BN1_MJV_2DC">5</a>. Then, in the <strong>Remote Password</strong> field, enter their password.</p>
+<p>In the <strong>Remote User</strong> field, enter the username of the user you configured in step <a href="/weblogic-remote-console/2.4.13/administration-server/configuring-services/#STEP_BN1_MJV_2DC">5</a>. Then, in the <strong>Remote Password</strong> field, enter their password.</p>
 </li>
 <li>
 <p>Click <strong>Create</strong>.</p>
@@ -1718,7 +1722,7 @@ Session session = (Session) ic.lookup(&#34;myMailSession&#34;);
 <li>
 <p>From the <strong>Security Interoperability Mode</strong> drop-down list, select a mode:</p>
 <ul>
-<li><strong>Default</strong>: Messages are forwarded using kernel identity <em>if</em> the <strong>Admin</strong> channel is also configured. Otherwise, it behaves like <code>performance</code> mode. See <a href="/2.4.13/administration-server/domain-configuration/#GUID-BC689DFE-0598-46B4-8E30-82B87D9CB354">Configure the Domain-Wide Administration Port</a>.</li>
+<li><strong>Default</strong>: Messages are forwarded using kernel identity <em>if</em> the <strong>Admin</strong> channel is also configured. Otherwise, it behaves like <code>performance</code> mode. See <a href="/weblogic-remote-console/2.4.13/administration-server/domain-configuration/#GUID-BC689DFE-0598-46B4-8E30-82B87D9CB354">Configure the Domain-Wide Administration Port</a>.</li>
 <li><strong>Performance</strong>: Messages are forwarded using an anonymous user.</li>
 </ul>
 </li>
@@ -1753,9 +1757,9 @@ Session session = (Session) ic.lookup(&#34;myMailSession&#34;);
 </footer>
 
     </div>
-    <script src="/js/main.min.90902a026ed2aee7ed45d85797f4c790b240ba148ac6f8a6f194cb1981ffecf5.js" integrity="sha256-kJAqAm7SruftRdhXl/THkLJAuhSKxvim8ZTLGYH/7PU=" crossorigin="anonymous"></script>
-<script defer src="/js/click-to-copy.min.73478a7d4807698aed7e355eb23f9890ca18fea3158604c8471746d046702bad.js" integrity="sha256-c0eKfUgHaYrtfjVesj&#43;YkMoY/qMVhgTIRxdG0EZwK60=" crossorigin="anonymous"></script>
-<script src='/js/tabpane-persist.js'></script>
+    <script src="/weblogic-remote-console/js/main.js"></script>
+<script defer src="/weblogic-remote-console/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/weblogic-remote-console/js/tabpane-persist.js'></script>
 
   </body>
 </html>
